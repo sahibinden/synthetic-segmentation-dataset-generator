@@ -52,7 +52,7 @@ pipenv run python synthetic_segmentation_dataset_generator.py
 ### Parameters for Customization
 These parameters can be changed from dataset_generator_parameters.ini file
 
-**frame_delay:** determines the delay of taking frames from the background video (in seconds) 
+**frame_delay:** determines the delay of taking frames from the background video (in seconds) \
 **mask_image_reuse_count:** determines how many synthetic samples are created for each mask \
 **object_min_height_threshold:** determines a threshold for using objects which has min n pixel height \
 **max_object_count_per_image:** determines the maximum object count per image
