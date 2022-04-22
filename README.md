@@ -13,13 +13,13 @@ A project to generate synthetic dataset with realistic city backgrounds for imag
   }
 ```
 
-# Setup - Install requirements
+### Setup - Install requirements
 
 ```bash
 pipenv install -r requirements.txt
 ```
 
-# For Background Images Dataset Generation
+### For Background Images Dataset Generation
 
 Note: This step is needed if you want to generate background images from a mp4 video. \
 Please define source video path for background images and folder name \
@@ -29,7 +29,7 @@ for output background images using dataset_generator_parameters.ini file.
 pipenv run python background_images_generator.py
 ```
 
-# For Object/Mask Dataset
+### For Object/Mask Dataset
 
 Note: This step is needed if you want to use the pedestrian objects from PennFudan Dataset. \
 Otherwise give related path of your objects/masks dataset using "segmentation_object_image_folder" \
@@ -39,7 +39,7 @@ and "segmentation_object_mask_folder" variables in dataset_generator_parameters.
 pipenv run python PennFudan_mask_generator.py
 ```
 
-# For Synthetic Dataset Generation (Merging Background Images and Objects/Masks)
+### For Synthetic Dataset Generation (Merging Background Images and Objects/Masks)
 
 Note: This step merges background images and objects to generate a synthetic segmentation dataset which contains images and related mask images. \
 Please check synthetic_segmentation_dataset_generator_params from dataset_generator_parameters.ini file \
@@ -49,7 +49,7 @@ to customize your synthetic dataset.
 pipenv run python synthetic_segmentation_dataset_generator.py
 ```
 
-# Parameters for Customization
+### Parameters for Customization
 These parameters can be changed from dataset_generator_parameters.ini file
 
 **frame_delay:** determines delay of taking frames from the background video (in seconds) 
