@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+configparser = "==5.2.0"
+opencv-python = "==4.5.5.62"
+tqdm = "*"
+numpy = "==1.22.0"
+Pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
