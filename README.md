@@ -21,7 +21,7 @@ pipenv install -r requirements.txt
 
 ### For Background Images Dataset Generation
 
-Note: This step is needed if you want to generate background images from a mp4 video. \
+**Note:** This step is needed if you want to generate background images from a mp4 video. \
 Please define the source video path for background images and the folder name \
 for output background images using the dataset_generator_parameters.ini file.
 
@@ -31,7 +31,7 @@ pipenv run python background_images_generator.py
 
 ### For Object/Mask Dataset
 
-Note: This step is needed if you want to use the pedestrian objects from the PennFudan Dataset. \
+**Note:** This step is needed if you want to use the pedestrian objects from the PennFudan Dataset. \
 Otherwise assign the related path of your objects/masks dataset to the "segmentation_object_image_folder" \
 and "segmentation_object_mask_folder" variables in the dataset_generator_parameters.ini file.
 
@@ -41,7 +41,7 @@ pipenv run python PennFudan_mask_generator.py
 
 ### For Synthetic Dataset Generation (Merging Background Images and Objects/Masks)
 
-Note: This step merges background images with the object images and related image masks to generate a synthetic segmentation dataset. \
+**Note:** This step merges background images with the object images and related image masks to generate a synthetic segmentation dataset. \
 Please check synthetic_segmentation_dataset_generator_params from the dataset_generator_parameters.ini file \
 to customize your synthetic dataset.
 
