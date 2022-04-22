@@ -3,7 +3,7 @@ Synthetic Segmentation Dataset Generator Using Realistic City Backgrounds
 
 A project to generate synthetic dataset with realistic city backgrounds for image segmentation problems.
 
-### If you use this library in your research project, please cite our SİU 2022 paper:
+### If you use this code in your research project, please cite our SİU 2022 paper:
 ```bibtex
 @INPROCEEDINGS{sahibindensiu2022,
   author={İşlek, İrem and Aksaylı, N. Deniz and Güngör, Onur and Karaman, Çağla Çığ},
